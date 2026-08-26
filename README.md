@@ -4,6 +4,14 @@ Monitor de uso do **Claude** e do **ChatGPT (Codex)** na barra de menus do Mac.
 É a adaptação da versão Windows, com o mesmo visual: barras listradas animadas,
 cores por faixa de uso e o ícone de cada marca acompanhando o preenchimento.
 
+Prévia que aparece ao passar o mouse no ícone da barra de menus:
+
+![prévia no hover](docs/previa.png)
+
+Barras do painel de detalhes, com as cores por faixa de uso:
+
+![barras de progresso](docs/barras.png)
+
 ## Requisitos
 
 - macOS 11 (Big Sur) ou mais novo
@@ -64,8 +72,19 @@ da thread da interface — o app nunca trava enquanto consulta.
   criado apenas se você ativar o início automático (e removido ao desativar).
 - Todo o código está em um único arquivo, `UsageAI.swift`, para facilitar a auditoria.
 
+## Versão para Windows
+
+A versão original, para a bandeja do Windows, está em
+[usage-ai-windows](https://github.com/jmschmitzco/usage-ai-windows).
+
 ## Aviso
 
-Esta versão foi escrita a partir da versão Windows, mas **não foi compilada nem
-testada em um Mac** — foi desenvolvida em uma máquina Windows. Se o `swiftc`
-apontar algum erro de compilação, me mande a mensagem que eu ajusto.
+Esta versão foi escrita a partir da versão Windows, mas **ainda não foi compilada
+nem testada em um Mac** — foi desenvolvida em uma máquina Windows. Se o `swiftc`
+apontar algum erro de compilação, abra uma issue com a mensagem.
+
+---
+
+*Projeto independente, sem vínculo com Anthropic ou OpenAI. "Claude", "ChatGPT"
+e seus logos pertencem às respectivas empresas e aparecem aqui apenas para
+identificar cada serviço.*
