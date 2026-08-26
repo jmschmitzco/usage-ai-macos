@@ -64,6 +64,18 @@ da thread da interface — o app nunca trava enquanto consulta.
 | Início automático | Chave `Run` do registro | `LaunchAgent` em `~/Library/LaunchAgents` |
 | Fonte | Segoe UI / Segoe UI Black | Fonte do sistema (SF Pro), peso *black* |
 
+## Arquivos
+
+| Arquivo | Papel |
+|---|---|
+| `UsageAI.swift` | O aplicativo inteiro |
+| `criar-app.sh` | Compila e monta o `Usage A.I.app` (inclusive o ícone) |
+| `iniciar-com-o-sistema.sh` | Liga/desliga a abertura automática no login |
+| `AppIcon.png` | Ícone do aplicativo (vira `.icns` na compilação) |
+| `MenuBarIcon.png` | Ícone da barra de menus |
+| `LogoClaude.png` / `LogoChatGPT.png` | Símbolos das marcas usados nas barras |
+| `u.ai.svg` | Logo original do projeto, em vetor |
+
 ## Segurança
 
 - Os tokens são usados **somente** no cabeçalho `Authorization` das duas APIs
